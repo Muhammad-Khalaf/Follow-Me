@@ -90,7 +90,7 @@ I began with two layers in the encoder block, then a 1x1 convolution and the two
 
 #### features
 For the encoder layers, the number of features increases, while it decreases in the decoder layer, until it reaches 3 in the softmax classifier, which is the number of classes.
-As a common settings, number of features is chosen to be a power of 2, for computational reasons and performance improvement, as stated here in this lecture by Andrej Karpathy from CS231n (at 00:22:20).
+As a common settings, number of features is chosen to be a power of 2, for computational reasons and performance improvement, as stated [here in this lecture](https://www.youtube.com/watch?v=LxfUGhug-iQ) by Andrej Karpathy from CS231n (at 00:22:20).
 
 Because I was training the model on my laptop not on a GPU server. The values were also chosen conveniently based on the training time the model takes and the time I actually have.
 
@@ -278,4 +278,4 @@ A 2017 Guide to Semantic Segmentation with Deep Learning, by Sasank Chilamkurthy
 
 Ronneberger, Philipp Fischer, Thomas Brox, "U-Net: Convolutional Networks for Biomedical Image Segmentation"
 
-CS231n: 
+Stanford course CS231n
